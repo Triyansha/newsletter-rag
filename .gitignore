@@ -1,0 +1,37 @@
+ Environment & Secrets (IMPORTANT - keeps API keys safe)
+.env
+.env.local
+.env.*.local
+
+# Google OAuth credentials (NEVER commit these)
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# ChromaDB data
+.newsletter_rag/
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
